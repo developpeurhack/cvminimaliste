@@ -1,0 +1,25 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-background/5 flex justify-between items-center px-2 py-1">
+    <p> &copy; {year}: by - KM - 🤷 , CV with minimal design, All Rights Reserved .</p>
+    <p>
+        <a href="#" target="_blank" class="underline underline-offset-2 hover:no-underline">
+            👉
+        </a> 
+        View my Portfolio
+        <a href="http://localhost:4321/" target="_blank" class="underline underline-offset-2 hover:no-underline">
+            CV - Portfolio - 🖥️ ! .
+        </a>
+    </p>
+</footer>
+
+<style>
+    p{
+        @apply text-sm text-text/50;
+    }
+    a {
+        @apply underline hover:text-text/80;
+    }
+</style>
